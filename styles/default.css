@@ -1,0 +1,27 @@
+body {
+    background: #60435F;
+}
+
+h1, h2 {
+    color: #d67ab1;
+}
+
+a {
+    color: #fdf7fa;
+}
+
+a:hover {
+    color: #A8DCD9;
+}
+
+p {
+    color: #E2A3C7; 
+}
+
+footer {
+    color: #fdf7fa;
+}
+
+ul {
+    list-style-type: none;
+}
