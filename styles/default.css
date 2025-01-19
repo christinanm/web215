@@ -4,10 +4,12 @@ body {
 
 h1, h2 {
     color: #d67ab1;
+    font-family: "Roboto", serif
 }
 
 a {
     color: #fdf7fa;
+    font-family: "Inter", serif;
 }
 
 a:hover {
@@ -16,10 +18,12 @@ a:hover {
 
 p {
     color: #E2A3C7; 
+    font-family: "Inter", serif;
 }
 
 footer {
     color: #fdf7fa;
+    font-family: "Inter", serif;
 }
 
 ul {
