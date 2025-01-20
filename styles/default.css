@@ -24,6 +24,10 @@ a:hover {
     color: #A8DCD9;
 }
 
+#home {
+    text-align: center;
+}
+
 p {
     color: #E2A3C7; 
     font-family: "Inter", serif;
