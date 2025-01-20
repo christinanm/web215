@@ -1,5 +1,7 @@
 body {
     background: #60435F;
+    min-height: 100vh;
+    text-align: center;
 }
 
 h1, h2 {
@@ -26,6 +28,9 @@ p {
 footer {
     color: #fdf7fa;
     font-family: "Inter", serif;
+    text-align: center;
+    position: sticky;
+    top: 100%;
 }
 
 ul {
@@ -37,3 +42,4 @@ ul {
 li {
     display: inline;
 }
+
