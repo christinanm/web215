@@ -2,11 +2,14 @@ body {
     background: #60435F;
     min-height: 100vh;
     text-align: center;
+    
 }
 
 h1, h2 {
     color: #d67ab1;
-    font-family: "Roboto", serif
+    font-family: "Roboto", serif;
+    text-align: center;
+
 }
 
 a {
@@ -29,12 +32,13 @@ p {
 p a {
     color: #A8DCD9;
     background-color: #60435F;
-    padding: 6px;
+    padding: 0px;
 }
 
 p a:hover {
     color: #fdf7fa; 
 }
+
 footer {
     color: #fdf7fa;
     font-family: "Inter", serif;
@@ -47,9 +51,33 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    color: #d67ab1;
 }
 
 li {
     display: inline;
 }
+
+figcaption {
+    color: #A8DCD9;
+}
+
+ol {
+    color: #E2A3C7; 
+}
+
+.introduction {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 600px;
+}
+
+
+main, img, figcaption {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 600px;
+  }
 
