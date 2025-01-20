@@ -10,6 +10,8 @@ h1, h2 {
 a {
     color: #fdf7fa;
     font-family: "Inter", serif;
+    padding: 8px;
+    background-color: #483247;
 }
 
 a:hover {
@@ -28,4 +30,10 @@ footer {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
 }
