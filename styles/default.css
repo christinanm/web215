@@ -26,7 +26,8 @@ a:hover {
 
 
 main p {
-    text-align: center;
+    width: max-width;
+    margin: 0 auto;
 }
 
 p {
@@ -60,7 +61,7 @@ ul {
     font-family: "Inter", serif;
 }
 
-li {
+nav li {
     display: inline;
 }
 
@@ -71,6 +72,8 @@ figcaption {
 
 ol {
     color: #E2A3C7; 
+    list-style-type: none;
+    font-family: "Inter", serif;
 }
 
 .introduction {
