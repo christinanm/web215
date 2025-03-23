@@ -28,6 +28,7 @@ a:hover {
 main p {
     width: max-width;
     margin: 0 auto;
+    font-size: 18px;
 }
 
 p {
@@ -39,6 +40,7 @@ p a {
     color: #A8DCD9;
     background-color: #60435F;
     padding: 0px;
+    font-size: 18px;
 }
 
 p a:hover {
@@ -51,6 +53,11 @@ footer {
     text-align: center;
     position: sticky;
     top: 100%;
+    font-size: 18px;
+}
+
+footer a {
+    font-size: 18px;
 }
 
 ul {
@@ -59,6 +66,7 @@ ul {
     padding: 0;
     color: #E2A3C7;
     font-family: "Inter", serif;
+    font-size: 18px;
 }
 
 nav li {
@@ -68,12 +76,14 @@ nav li {
 figcaption {
     color: #A8DCD9;
     font-family: "Inter", serif;
+    font-size: 18px;
 }
 
 ol {
     color: #E2A3C7; 
     list-style-type: none;
     font-family: "Inter", serif;
+    font-size: 18px;
 }
 
 .introduction {
