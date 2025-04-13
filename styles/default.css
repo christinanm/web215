@@ -1,15 +1,29 @@
 body {
-    background: #60435F;
-    min-height: 100vh;
+    background: #402B3B;
     text-align: center;
-    
 }
 
-h1, h2 {
-    color: #d67ab1;
+h1 {
+   font-size: 30px;
+   color: #D77FB1;
     font-family: "Roboto", serif;
     text-align: center;
+    padding: 10px;
+}
 
+h2 {
+    font-size: 30px;
+    color: #D77FB1;
+    font-family: "Roboto", serif;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    color: #E9BAD7;
+    font-family: "Roboto", serif;
+    text-align: center;
+    padding: 5px;
 }
 
 a {
@@ -23,7 +37,14 @@ a {
 a:hover {
     color: #A8DCD9;
 }
-
+ 
+main {
+    padding: 20px; 
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 600px;
+}
 
 main p {
     width: max-width;
@@ -32,13 +53,13 @@ main p {
 }
 
 p {
-    color: #E2A3C7; 
+    color: #E9BAD7; 
     font-family: "Inter", serif;
 }
 
 p a {
     color: #A8DCD9;
-    background-color: #60435F;
+    background-color: #402B3B;
     padding: 0px;
     font-size: 18px;
 }
@@ -51,9 +72,8 @@ footer {
     color: #fdf7fa;
     font-family: "Inter", serif;
     text-align: center;
-    position: sticky;
-    top: 100%;
     font-size: 18px;
+    padding-top: 100px;
 }
 
 footer a {
@@ -64,7 +84,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: #E2A3C7;
+    color: #E9BAD7;
     font-family: "Inter", serif;
     font-size: 18px;
 }
@@ -93,6 +113,10 @@ ol {
     max-width: 600px;
 }
 
+.introduction a {
+    background-color: #402B3B;
+    padding: 0px;
+}
 
 main, img, figcaption {
     display: table;
